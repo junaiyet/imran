@@ -3,6 +3,8 @@ body{
     font-size: 16px;
     font-weight: 400;
     overflow-x: hidden;
+    color: #999;
+
 }
 *{
     margin: 0;
@@ -12,14 +14,156 @@ ul,ol{
     list-style: none;
 
 }
-
-.banner-area {
-    padding-bottom: 100px;
-}
-.banner-area .banner{
-    background-color:#70cee2 ;
-}
 img{
     width: 100%;
     height: 100%;
+}
+h2{
+color: #70cee2;
+text-transform: capitalize;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.4;
+padding-bottom: 50px;
+}
+
+.navigation{
+    background-color: #70cee2;
+}
+.navigation .navbar .navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.navigation .navbar ul li a{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.banner-area {
+    margin-bottom: 100px;
+    background-color:#70cee2 ;
+}
+/* .banner-area .banner{
+} */
+.banner-area .banner h1{
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.2;
+ text-transform: capitalize;
+}
+.about{
+    margin-bottom: 100px; 
+}
+.gallary{
+    margin-bottom: 100px; 
+}
+.gallary img{
+    height: 555px;
+}
+footer{
+    background-color:#70cee2 ;
+    padding: 100px 0 50px 0;
+}
+footer h2{
+    color: #fff;
+    padding-bottom: 30px;
+}
+footer h3{
+    color: #fff;
+    padding-bottom: 30px;
+}
+footer p{
+    color: #fff;
+    text-transform: capitalize;
+}
+footer .socal-media ul{
+    padding-left: 0;
+}
+footer .socal-media ul li{
+    display: inline-block;
+
+}
+/* footer .socal-media ul li a{
+
+} */
+
+footer .socal-media ul li a i{
+    color: #fff;
+    background-color: black;
+    width: 50px ;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all .4s linear;
+}
+footer .socal-media ul li a i:hover{
+    color: black;
+    background-color: #fff;
+}
+footer .contact .contact-details{
+    display: flex;
+    padding-bottom: 30px;
+}
+footer .contact span{
+color: #fff;
+font-size: 20px ;
+margin-right: 10px;
+}
+footer .footer-bottom{
+    padding-top: 50px;
+}
+@media  (max-width:769px){
+    h2 {
+
+        font-size: 31px;
+    
+        padding-bottom: 30px;
+    }
+    .navigation .navbar-toggler i{
+        color: #fff;
+    }
+    .navigation .navbar-toggler:focus {
+    
+        box-shadow: none;
+    }
+    .banner-area {
+        margin-bottom: 50px;
+    }
+    .banner-area .banner h1 {
+        font-size: 34px;
+        padding: 30px 0;
+    }
+    .about {
+        margin-bottom: 50px;
+    }
+    .gallary{
+        margin-bottom: 50px;
+
+    }
+    .gallary img {
+        height: auto;
+    }
+    footer .socal-media{
+        padding-bottom: 20px;
+    }
+
+}
+@media  (max-width:1200px){
+    footer .socal-media ul li a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+        margin-right: 5px;
+      
+    }
+    .gallary img {
+        height: auto;
+    }
 }
